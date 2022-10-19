@@ -276,22 +276,51 @@
 // if the mark is in between 0 - 32 print F
 // Also point out the invalid marks
 
-var mark = 59;
+// var mark = 59;
 
-if (mark < 0 || mark > 100) {
-  console.log('Invalid mark');
-} else if (mark >= 80 && mark <= 100) {
-  console.log('A+');
-} else if (mark >= 70 && mark <= 79) {
-  console.log('A');
-} else if (mark >= 60 && mark <= 69) {
-  console.log('A-');
-} else if (mark >= 50 && mark <= 59) {
-  console.log('B');
-} else if (mark >= 40 && mark <= 49) {
-  console.log('C');
-} else if (mark >= 33 && mark <= 39) {
-  console.log('D');
-} else if (mark > 0 && mark <= 32) {
-  console.log('F');
-}
+// if (mark < 0 || mark > 100) {
+//   console.log('Invalid mark');
+// } else if (mark >= 80 && mark <= 100) {
+//   console.log('A+');
+// } else if (mark >= 70 && mark <= 79) {
+//   console.log('A');
+// } else if (mark >= 60 && mark <= 69) {
+//   console.log('A-');
+// } else if (mark >= 50 && mark <= 59) {
+//   console.log('B');
+// } else if (mark >= 40 && mark <= 49) {
+//   console.log('C');
+// } else if (mark >= 33 && mark <= 39) {
+//   console.log('D');
+// } else if (mark > 0 && mark <= 32) {
+//   console.log('F');
+// }
+
+// Zadatak 17
+
+// exercise : FizzBuzz
+// take Number
+// if it is divisibled by 3 print Fizz
+// if  it is divizible by 5 print Buzz
+// if it is divizible by both 3 & 5 print fizzbuzz
+// otherwise print nothing
+
+// var number = 3;
+
+// if ( number % 3 === 0) {
+//   console.log("Fizz");
+// } else if ( number % 5 === 0) {
+//   console.log("Buzz");
+// } else if ( number % 3 && number % 5) {
+//   console.log("Fizz Buzz");
+// }
+
+// console.log(
+//   number % 3 === 0 && number % 5 === 0
+//     ? 'FizzBuzz'
+//     : number % 5 === 0
+//     ? 'Bazz'
+//     : number % 3 === 0
+//     ? 'Fizz'
+//     : 'Nothing'
+// );
