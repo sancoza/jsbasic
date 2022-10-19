@@ -105,11 +105,53 @@
 
 // Traženje parnog broja u jednoj liniji
 
-var broj = prompt("Unesi broj");
+// var broj = prompt("Unesi broj");
 
-( broj %2 == 0) ? alert("Broj je paran") : alert("Broj je neparan");
+// ( broj %2 == 0) ? alert("Broj je paran") : alert("Broj je neparan");
 
 // Zadatak 6
 
 //Unos dva broja i traženje većeg
 
+// var prviBroj= prompt("Unesi prvi broj");
+// var drugiBroj= prompt("Unesi drugi broj");
+// var max;
+
+// if(prviBroj > drugiBroj) {
+//   max = prviBroj;
+//   alert("Prvi broj: "+ max + " je veći.");
+// }else if ( drugiBroj > prviBroj) {
+//   max = drugiBroj;
+//   alert("Drugi broj: " + max + " je veći.")
+// }else {
+//   alert("Brojevi su isti");
+// }
+
+// Zadatak 7
+
+// Otvaranje i zatvaranje radnje
+
+// var datum = new Date();
+
+// var sat = datum.getHours();
+// var i;
+
+// for(i = 7; i <= sat; i++);
+
+// if(sat < 7 || sat > 15) {
+//   alert("Radnja je zatvorena, otvara se za: " + i + "sati.")
+// }else {
+//   alert("Radnja je otvorena.")
+// }
+
+// Zadatak 8
+
+// Napraviti promenljivu korisničkoIme i promenljivu lozinka i dodeliti im neku string vrednost.
+// Pristup je dozvoljen ukoliko je korisničko ime "administrator" i ukoliko je lozinka "enigma".
+// Izvršiti proveru i ispisati "Dobrodošli" ukoliko je pristup dozvoljen ili "Pristup odbijen" ukoliko su
+// uneti netačni podaci. 
+
+// var korisnickoIme = prompt("Unesi korisničko ime:");
+// var lozinka = prompt("Unesi lozinki:");
+
+// (korisnickoIme == "administrator") ? alert("Dobrodošli") : alert("Pristup odbijen");
