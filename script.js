@@ -198,8 +198,19 @@ console.log(!(true || false || false)); // true ! = false ???? u rešenju je tru
 console.log(!(true && false && false)); // false ! = true
 
 
+// Zadatak 10
 
+// Napraviti tri niza od kojih prvi treba da sadrži kolekciju stringova , drugi kolekciju brojeva dok
+// treći treba da sadrži kolekciju promenljivih.
 
+var stringovi = ["Pekinezer", "Doberman", "Pudlica", "Mops"];
+var brojevi = [1,2,3,4,5,6];
+var promenjive = [stringovi, brojevi];
+
+console.log(brojevi.length);
+console.log(stringovi.length);
+console.log(stringovi[2]);
+console.log(brojevi[3]);
 
 
 
