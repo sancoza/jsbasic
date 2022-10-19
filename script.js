@@ -155,3 +155,66 @@
 // var lozinka = prompt("Unesi lozinki:");
 
 // (korisnickoIme == "administrator") ? alert("Dobrodošli") : alert("Pristup odbijen");
+
+// Zadatak 9
+
+// Potrebno je razmisliti i predvideti šta će vratiti sledeći uslovi , true ili false:
+
+// true && true -> true****
+// true && false -> false
+// false && true -> false
+// false && false -> false
+
+// true || true -> true
+// true || false -> true
+// false || true -> true
+// false || false -> false***
+
+// true || true) = 1
+// (true || false) = 1
+// (false || true) = 1
+// (false || false) = 0
+
+// (true && true) = 1
+// (true && false) = 0
+// (false && true) = 0
+// (false && false) = 0
+
+// 1(!(5>6 || 6>5));    
+// 2(!(5>6 && 6>5))     
+// 3( 3>2 || 2>3 || 1>2)    
+// 4(3>2 && 2>3 && 1>2)      
+// 5(!( 3>2 || 2>3 || 1>2))     
+// 6(!(3>2 && 2>3 && 1>2))
+
+// // rešenje
+// // false || false -> false***
+// // true && true -> true****
+console.log (!(false|| true)); //true
+console.log(!(false && true)); // false ! = true
+console.log(true || false || false); // true
+console.log(true && false && false); // false
+console.log(!(true || false || false)); // true ! = false ???? u rešenju je true dal je greška
+console.log(!(true && false && false)); // false ! = true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1.false || true = ! true =>  false;
+// 2.false && true = ! false =>  true;
+// 3.true || false || false = true;
+// 4.true && false && false = false;
+// 5.true || false || false = true;
+// 6.true && false && false= ! false => true  
+
+
